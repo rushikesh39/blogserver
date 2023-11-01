@@ -9,7 +9,7 @@ app.use(cors())
 //     res.send(data)
 // })
 app.use(blogRoutes)
-app.listen("4000",()=>{
+app.listen(5000,()=>{
     console.log("server is running 5000")
    
 })
